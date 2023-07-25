@@ -50,11 +50,22 @@ function allCollectionFunc(fetchVal){
     currPri.style.fontWeight = "bold";
     currPri.innerHTML = "Offer Price : " + currPrice;
 
+    let cartBtn= document.createElement("button");
+    cartBtn.style.fontSize = "20px";
+    cartBtn.style.color = "#003150";
+    cartBtn.style.backgroundColor = "aliceblue";
+    cartBtn.style.border = "none";
+    cartBtn.style.position = "relative";
+    cartBtn.style.bottom = "150px";
+    cartBtn.style.left = "270px";
+    cartBtn.innerHTML = "<i class='bx bx-cart-add'></i>";
+
     divEle.appendChild(img)
     divEle.appendChild(watchName);
     divEle.appendChild(desp);
     divEle.appendChild(oldPri);
     divEle.appendChild(currPri);
+    divEle.appendChild(cartBtn);
 
 
     allWomenCollections.append(divEle);
