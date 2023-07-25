@@ -1,0 +1,237 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'El Messiri', sans-serif;
+}
+
+.container{
+    max-width:100%;
+    height:300vh;
+    background-color: aliceblue;
+    
+}
+
+.menu-container{
+    width:90%;
+    height:10vh;
+    border: solid aliceblue;
+    margin: auto;
+
+}
+
+.home-img{
+    width:90%;
+    height:80vh;
+   
+    margin: auto;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 50% 100%;
+    border-bottom-right-radius: 50% 100%;
+    background: url('https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/750410174102769.Y3JvcCwxOTIwLDE1MDEsMCwyMDk.png') no-repeat center/cover;
+    
+}
+
+.home-img button{
+    width:100px;
+    height:50px;
+    position: relative;
+    left:630px;
+    top:540px;
+  border-radius: 100px;
+  color:#003150;
+  font-weight: bold;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.left-text{
+    width:400px;
+    height:100px;
+  
+    margin-top: -300px;
+    margin-left: 30px;
+}
+
+.left-text p{
+    font-size: 70px;
+  text-align: center;
+    position: relative;
+
+    top:20%;
+    color:#003150;
+}
+
+
+.right-text{
+    width:400px;
+    height:100px;
+   
+    margin-top: -100px;
+    margin-left: 73%;
+    
+}
+.right-text p{
+    font-size: 70px;
+    text-align: center;
+      position: relative;
+  
+      top:20%;
+      color:#003150;
+}
+.logo{
+    width:200px;
+    height:8vh;
+    
+    margin-top: 1vh;
+}
+.logo p{
+    font-size: 40px;
+    text-align: center;
+    color:#003150;
+    font-weight: bold;
+}
+
+.nav{
+ width:360px;
+ height:30px;
+
+ margin-top: -25px;
+ margin-left:73%;
+ 
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 0 20px ;
+    text-align: center;
+    font-size: 20px;
+    color:#003150;
+    font-weight: bold;
+}
+
+.men-women{
+ width:80%;
+ height:80vh;
+ 
+ margin-left: 10%;
+ margin-top: 18%;
+ border-radius: 500px;
+}
+
+.men{
+    width:50%;
+    height:80vh;
+    
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    background: url('https://cms.longines.com/uploads/media/text-with-media/09/609-men-watches.jpg?v=1-0&w=828') no-repeat center/cover;
+    opacity: 1;
+}
+
+.women{
+    width:50%;
+    height:80vh;
+    
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
+    margin-top: -80vh;
+    margin-left: 50%;
+    background: url('https://cms.longines.com/uploads/media/text-with-media/08/608-women-watches.jpg?v=1-0&w=828') no-repeat center/cover;
+}
+
+.men-women-name{
+    width:80%;
+    height:10vh;
+    
+    margin-left: 10%;
+}
+
+.men-name{
+    width:50%;
+    height:10vh;
+    
+}
+.men-name p{
+ color: #003150;
+ font-size: 40px;
+ text-align: center;
+}
+.women-name{
+    width:50%;
+    height:10vh;
+    
+    margin-top: -10vh;
+    margin-left: 50%;
+}
+.women-name p{
+    color: #003150;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.watch-vid{
+    width:100%;
+    height:70vh;
+
+    margin-top: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.watch-vid > div{
+
+  
+  
+  width:400px;
+  height:400px;
+  
+}
+.watch-vid h1{
+    color:#003150;
+    position: relative;
+    left:20px
+}
+
+.men-women-name a{
+    text-decoration: none;
+
+}
+
+.footer{
+    width:100%;
+    height:30vh;
+    border-top: 2px solid black;
+    margin-top: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer > div{
+    
+    margin: 10px;
+    padding: 20px;
+    width:300px;
+    height:200px;
+    
+  }
+
+
+
+  .footer li{
+    list-style-type:none;
+    font-weight: bold;
+  }
+
+  .footer span{
+    position: relative;
+    top:70px;
+  }
